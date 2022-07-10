@@ -12,8 +12,8 @@ export DOTFILES="$HOME/.dotfiles"
 # XDG
 # chose to hide local and cache directories
 export XDG_CONFIG_HOME="$HOME/.config"
-export XDG_DATA_HOME="$XDG_CONFIG_HOME/.local"
-export XDG_CACHE_HOME="$XDG_CONFIG_HOME/.cache"
+export XDG_DATA_HOME="$HOME/.local/share"
+export XDG_CACHE_HOME="$HOME/.cache"
 
 # editor
 export EDITOR="nvim"
@@ -39,7 +39,8 @@ export NULLCMD='bat'
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 # VIM
-export VIMINIT="source ~/.config/nvim/init.vim"
+#export VIM="$XDG_CONFIG_HOME/vim/vimrc"
+#export VIMINIT="source ~/.config/nvim/init.vim"
 
 # NVM & NPM
 #export NVM_DIR="$HOME/.config/.nvm"
