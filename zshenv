@@ -28,6 +28,7 @@ export HISTTIMEFORMAT="[%F %T]"
 
 
 # Other Misc
+export LESSHISTFILE=-
 export NULLCMD='bat'
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
