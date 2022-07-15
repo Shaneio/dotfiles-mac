@@ -41,13 +41,14 @@ export FZF_CTRL_T_COMMAND="FZF_DEFAULT_COMMAND"
 #export VIMINIT="source ~/.config/nvim/init.vim"
 
 # NVM & NPM
-#export NVM_DIR="$HOME/.config/.nvm"
-#export NODE_REPL_HISTORY=""
+export NVM_DIR="$XDG_CONFIG_HOME/nvm"
+export NODE_REPL_HISTORY=""
+export npm_config_cache="$XDG_CACHE_HOME/npm"
 
 # PYTHON
-#export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
-#export PYENV_ROOT="$HOME/.config/.pyenv"
-#export PYTHONSTARTUP="$HOME/.config/.pythonrc.py"
+export PYTHONSTARTUP="$XDG_CONFIG_HOME/python/pythonrc"
+export PYENV_ROOT="$XDG_CONFIG_HOME/pyenv"
+export PYTHONSTARTUP="$HOME/.config/.pythonrc.py"
 
 # RUBY
-#export RBENV_ROOT="$HOME/.config/.rbenv"
+export RBENV_ROOT="$HOME/.config/rbenv"
